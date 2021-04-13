@@ -1,0 +1,168 @@
+/* 
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif; */
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+p{
+    color: #8f8f8f;
+}
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+/* section */
+.colored-section{
+    background-color: #ff4c68;
+}
+.white-section{
+    background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+/* Heading */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.2rem;
+}
+/* Title */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* button */
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+/* image */
+.img-title{
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+    z-index: 1;
+}
+/* features */
+#features{
+    position: relative;
+    z-index: 10;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+/* font awesome */
+.features-i{
+    width: 100%;
+    font-size: 3.5rem;
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+.features-i:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+/* Testimonials */
+#testimonials{
+    color:#fff;
+    background-color: #ef8172;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+} 
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+/* pricing section */
+#pricing{
+    padding:100px;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.row{
+    padding-top: 3%;
+}
+.btn-card{
+    width: 100%;
+}
+
+/* <!--  Call to Action --> */
+.cta-container{
+    margin: 0 auto;
+}
+.btn-cta{
+    margin: 5% 3% 5% 0;
+}
+
+/* footer */
+#footer{
+    padding: 7% 0 2% 0;
+}
+.font-footer{
+    font-size: 1.5rem;
+    padding: 20px 10px;
+}
+
+@media (max-width: 1365px){
+    #title{
+        text-align: center;
+    }
+    .container-fluid{
+        padding:3% 5%;
+    }
+    .img-title{
+        position: static;
+        transform: rotate(0);
+        padding-left: 10%;
+    }
+}
+@media (max-width: 990px){
+    .img-title{
+        padding-left: 0;
+
+    }
+}
+
